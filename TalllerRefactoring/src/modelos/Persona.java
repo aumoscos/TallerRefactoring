@@ -22,6 +22,9 @@ public class Persona {
         this.direccion = direccion;
         this.telefono = telefono;
     }
+    public Persona(){
+        
+    }
 
     
     

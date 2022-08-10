@@ -9,6 +9,10 @@ public class Estudiante extends Persona{
     
     public ArrayList<Paralelo> paralelos;
     
+    public Estudiante(){
+
+    }
+    
     //Getter y setter de Matricula
 
     public String getMatricula() {

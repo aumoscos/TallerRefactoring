@@ -26,5 +26,10 @@ public class Profesor {
         paralelos.add(p);
     }
     
+    public double calcularSueldo(){
+        double sueldo=0;
+        sueldo= this.info.añosdeTrabajo*600 + this.info.BonoFijo;
+        return sueldo;
+    } 
     
 }
